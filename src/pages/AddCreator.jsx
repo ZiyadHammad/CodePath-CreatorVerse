@@ -1,9 +1,25 @@
-import React from 'react'
+import { useNavigate } from "react-router-dom";
+import { supabase } from "../services/client";
+import Form from '../components/Form';
 
 const AddCreator = () => {
-  return (
-    <div>AddCreator</div>
-  )
-}
+  const navigate = useNavigate();
 
-export default AddCreator
+  const handleSubmit = async (newCreator) => {
+    const { data, error } = await supabase.from('creators').insert([newCreator]);
+    
+    if (error) {
+      console.error('Error adding creator:', error);
+    } else {
+      navigate('/');
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-900 py-12">
+      <Form handleSubmit={handleSubmit} />
+    </div>
+  );
+};
+
+export default AddCreator;

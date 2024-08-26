@@ -2,7 +2,7 @@
 
 Submitted by: **👉🏿 Ziyad Hammad**
 
-About this web app: **👉🏿 app description here**
+About this web app: **👉🏿 CreatorVerse is an app where you can view, manage, and showcase your favorite content creators.**
 
 Time spent: **👉🏿 X** hours
 

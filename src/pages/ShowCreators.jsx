@@ -1,10 +1,11 @@
+import Creators from "../components/Creators";
 
 const ShowCreators = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">ShowCreators</h1>
-    </div>
-  )
-}
+    <>
+      <Creators />
+    </>
+  );
+};
 
-export default ShowCreators
+export default ShowCreators;

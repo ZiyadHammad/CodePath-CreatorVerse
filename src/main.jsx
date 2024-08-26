@@ -16,12 +16,12 @@ const router = createBrowserRouter([
         element: <ShowCreators />,
       },
       {
-        path: ":id",
+        path: "/creator/:id",
         element: <ViewCreator />,
       },
      
       {
-        path: "edit",
+        path: "edit/:id",
         element: <EditCreator />,
       },
       {
