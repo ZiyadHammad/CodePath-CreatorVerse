@@ -36,8 +36,6 @@ Here's a walkthrough of implemented required features:
 
 👉🏿<img src='/public/creatorverse.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-![Video Walkthrough](/public/creatorverse.gif)
-
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  👉🏿 LICEcap
 <!-- Recommended tools:
